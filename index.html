@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+<head>
+	<meta charset="utf-8">
+	<title>Portfólio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="bxslider/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="bxslider/jquery.bxslider.css">
+    <script type="text/javascript" src="bxslider/jquery.bxslider.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#banners').bxSlider({
+              auto: true,
+              autoHover: true,
+              autoControls: false,
+              controls: true,
+              pager: true,
+            });
+        });
+    </script>
+</head>
+
+<header id="menu">
+	<div class="container">
+		<img src="imagens/logo.png" id="logo">
+		<nav>
+			<ul>
+				<li><a href="../index.html">Menu</a></li>
+                <li><a href="../Portfólio/internas/Estampas.html">Estampas</a></li>
+                <li><a href="../Portfólio/internas/pizzaria.html">Pizzaria</a></li>
+                <li><a href="../Portfólio/internas/Nutricionista.html">Nutricionista</a></li>
+                <li><a href="../Portfólio/internas/Greenbet.html">Greenbet</a></li>
+                <li><a href="../Portfólio/internas/Youngstore.html">Young store</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+	<div id="box-1">
+		<h1>Portfólio</h1>
+
+		<p id="texto"> </p>
+	</div>
+
+	<div id="banners-topo">
+		<ul id="banners">
+            <li><img src="imagens/Estampas/2.png"></li>   
+            <li><img src="imagens/Greenbet/logo.png"></li>    
+            <li><img src="imagens/Pizzaria/logopizzaria.png"></li>
+            <li><img src="imagens/nutricionista/PATRICIO VELOSO (4).png"></li>
+            <li><img src="imagens/Young store/Design sem nome (2).png"></li>    
+        </ul>     
+	</div>
+</html>
